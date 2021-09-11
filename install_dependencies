@@ -12,4 +12,3 @@ sudo touch maven.sh
 sudo chmod 777 maven.sh 
 echo -e "export M2_HOME=/opt/apache-maven-3.6.3\nexport PATH=${M2_HOME}/bin:${PATH}" > maven.sh 
 source /etc/profile.d/maven.sh 
-
